@@ -1,0 +1,32 @@
+<%- include("partials/header") %>
+    <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+                <h1>this is the audios page</h1>
+                <p>view all audios</p>
+                <p>
+                    <a class="btn btn-primary btn-large" href="audios/new">Add a New audio</a>
+                </p>
+            </div>
+        </header>
+    </div>
+    <body>
+        <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+            <% audios.forEach(function(audio){ %>
+                <div class="col-md-3 col-s-6">
+                    <div class="thumbnail">
+                        <audio controls>
+                            <source src="<%= audio.audio %>" type="audio/ogg">
+                        </audio> 
+                    </div>
+                    <div class="caption">
+                        <h4><%= audio.name %></h4>
+                    </div>
+                    <p>
+                        <a href="/home/audios/<%= audio._id %>" class="btn btn-primary">More Info</a>
+                    </p>
+                </div>
+            <% }) %>
+        </div>
+    </body>
+<%- include("partials/footer") %>  

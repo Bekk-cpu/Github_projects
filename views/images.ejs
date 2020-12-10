@@ -1,0 +1,33 @@
+<%- include("partials/header") %>
+<div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <h1>This is the 'images' page</h1>
+            <p>View our selected photos of nature from the whole world</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="images/new">Add a new Image</a>
+            </p>
+        </div>
+    </header>
+</div>
+    <body>
+        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+            <% images.forEach(function(image){ %>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="<%= image.image %>" height="200" width="200">
+                        <div class="caption">
+                            <h4><%= image.name %></h4>
+                        </div>
+                        <p>
+                            <a href="/home/images/<%= image._id %>" class="btn btn-primary">More Info</a>
+                        </p>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </body>
+
+<%- include("partials/footer") %>
+

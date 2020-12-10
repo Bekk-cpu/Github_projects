@@ -1,0 +1,33 @@
+<%- include("partials/header") %>
+    <div class="container">
+        <header class="jumbotron">
+            <div class="container">
+                <h1>This is the videos page</h1>
+                <p>view our videos</p>
+                <p>
+                    <a class="btn btn-primary btn-large" href="videos/new">Add a new video</a>
+                </p>
+            </div>
+        </header>
+    </div>
+    <body>
+        <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+            <% videos.forEach(function(video){ %>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <video width="320" height="240" controls>
+                            <source src="<%= video.video %>" type="video/ogg">
+                        </video>
+                        <div class="caption">
+                            <h4><%= video.name %></h4>
+                        </div>
+                        <p>
+                            <a href="/home/videos/<%= video._id %>" class="btn btn-primary">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </body>
+<
+<%- include("partials/footer") %>  
