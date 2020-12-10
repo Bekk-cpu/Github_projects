@@ -1,0 +1,24 @@
+<!-- Loads the path to your static files -->
+{% load static %}
+<link rel="stylesheet" href="http: //maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'music:index' %}">
+                Zema
+            </a>
+        </div>
+    </div>
+</nav>
+
+{% if all_albums %}
+  <h2>Here are all</h2>
+  <ul>
+      {% for album in all_albums %}
+      <li><a href="{% url 'music:detail' album.id %}">{{ album.album_title }}</a></li>
+      {% endfor %}
+  </ul>
+{% else %}
+  <h1>You don't have any albums</h1>h1>
+{% endif %}

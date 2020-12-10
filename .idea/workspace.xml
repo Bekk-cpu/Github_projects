@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f90d8925-a3cc-4a7a-8fc9-316b87aa20f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XFWTPtZlz3XcBplczgeO2hhQBd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/music/static/music/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/music/static/music/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/music/static/music" />
+      <recent name="$PROJECT_DIR$/music" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f90d8925-a3cc-4a7a-8fc9-316b87aa20f3" name="Default Changelist" comment="" />
+      <created>1580642329827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580642329827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="107" width="1084" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581320587634">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="258" y="107" width="1084" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.132.1366.768/0.0.1600.873@0.0.1600.873" timestamp="1581320587634" />
+    <state x="549" y="254" width="491" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580658246646">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="549" y="254" width="491" height="387" key="#com.intellij.fileTypes.FileTypeChooser/1600.132.1366.768/0.0.1600.873@0.0.1600.873" timestamp="1580658246646" />
+    <state x="583" y="207" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580895618531">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="583" y="207" width="424" height="482" key="FileChooserDialogImpl/1600.132.1366.768/0.0.1600.873@0.0.1600.873" timestamp="1580895618531" />
+    <state x="493" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1581416025926">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="421" y="234" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1581181429096" />
+    <state x="493" y="276" key="com.intellij.ide.util.TipDialog/1600.132.1366.768/0.0.1600.873@0.0.1600.873" timestamp="1581416025926" />
+    <state x="463" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1580836902759">
+      <screen x="0" y="0" width="1600" height="873" />
+    </state>
+    <state x="463" y="193" width="672" height="678" key="search.everywhere.popup/1600.132.1366.768/0.0.1600.873@0.0.1600.873" timestamp="1580836902759" />
+  </component>
+</project>
